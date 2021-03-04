@@ -115,8 +115,8 @@ while running:
             if event.key == pygame.K_RIGHT:
                 playerX_move = 4
             if event.key == pygame.K_SPACE:
-                # bulletSound = mixer.Sound("laser.wav")
-                # bulletSound.play()
+                bulletSound = mixer.Sound("laser.wav")
+                bulletSound.play()
                 # If statement stops the already existing bullet from skipping
                 if bulletState == "ready":
                     bulletX = playerX
